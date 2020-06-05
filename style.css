@@ -1,0 +1,229 @@
+
+h1{
+    background-color: royalblue;
+    
+}
+
+
+.hyper{
+    display : flexbox;
+    justify-content: space-between;
+ 
+}
+
+p{
+    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.p1{
+    background-color:yellowgreen ;
+    display : flex;
+    border-radius: 50px;
+    padding-left: 50px;
+}
+h2{
+    justify-content: center;
+}
+ 
+.p2{
+    background-color:rgb(235, 196, 22);
+    display : flex;
+    border-radius: 35px;
+    padding-left: 25px;
+}
+.p_img p{
+   
+   position:absolute;
+   top: 82.5%;;
+   left:60%;
+   transform: translate(-90%,-90%);
+   opacity: 0;
+   -webkit-transition:0.2s;
+   transition : 0.2s;
+}
+.p_img:hover p {
+  opacity :1;
+  -webkit-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+ 
+}
+.p_img:hover{
+    opacity:0.5;
+}
+.a_img1 p{
+   
+    position:absolute;
+    top: 12.5%;;
+    right:17%;
+    transform: translate(-90%,-90%);
+    opacity: 0;
+    -webkit-transition:0.2s;
+    transition : 0.2s;
+ }
+ .a_img1:hover p {
+   opacity :1;
+   -webkit-transform: rotate(0deg) scale(1);
+   transform: rotate(0deg) scale(1);
+  
+ }
+ .a_img1:hover{
+     opacity:0.3;
+ }
+ .s_img1 p{
+   
+    position:absolute;
+    top: 55.5%;;
+    right:2%;
+    transform: translate(-90%,-90%);
+    opacity: 0;
+    -webkit-transition:0.2s;
+    transition : 0.2s;
+ }
+ .s_img1:hover p {
+   opacity :1;
+   -webkit-transform: rotate(0deg) scale(1);
+   transform: rotate(0deg) scale(1);
+  
+ }
+ .s_img1:hover{
+     opacity:0.5;
+ }
+ .s_img2 p{
+   
+    position:absolute;
+    top: 55.5%;;
+    right:20%;
+    transform: translate(-90%,-90%);
+    opacity: 0;
+    -webkit-transition:0.2s;
+    transition : 0.2s;
+ }
+ .s_img2:hover p {
+   opacity :1;
+   -webkit-transform: rotate(0deg) scale(1);
+   transform: rotate(0deg) scale(1);
+  
+ }
+ .s_img2:hover{
+     opacity:0.3;
+ }
+ .s_img3 p{
+   
+    position:absolute;
+    top: 98.5%;;
+    right:2%;
+    transform: translate(-90%,-90%);
+    opacity: 0;
+    -webkit-transition:0.2s;
+    transition : 0.2s;
+ }
+ .s_img3:hover p {
+   opacity :1;
+   -webkit-transform: rotate(0deg) scale(1);
+   transform: rotate(0deg) scale(1);
+  
+ }
+ .s_img3:hover{
+     opacity:0.5;
+ }
+ .s_img4 p{
+   
+    position:absolute;
+    top: 98.5%;;
+    right:20%;
+    transform: translate(-90%,-90%);
+    opacity: 0;
+    -webkit-transition:0.2s;
+    transition : 0.2s;
+ }
+ .s_img4:hover p {
+   opacity :1;
+   -webkit-transform: rotate(0deg) scale(1);
+   transform: rotate(0deg) scale(1);
+  
+ }
+ .s_img4:hover{
+     opacity:0.5;
+ }
+ .c_img1 p{
+   
+    position:absolute;
+    top: 70.5%;;
+    right:5%;
+    transform: translate(-90%,-90%);
+    opacity: 0;
+    -webkit-transition:0.2s;
+    transition : 0.2s;
+ }
+ .c_img1:hover p {
+   opacity :1;
+   -webkit-transform: rotate(0deg) scale(1);
+   transform: rotate(0deg) scale(1);
+  
+ }
+ .c_img1:hover{
+     opacity:0.5;
+ }
+ .c_img2 p{
+   
+    position:absolute;
+    top: 127.5%;;
+    right:5%;
+    transform: translate(-90%,-90%);
+    opacity: 0;
+    -webkit-transition:0.2s;
+    transition : 0.2s;
+ }
+ .c_img2:hover p {
+   opacity :1;
+   -webkit-transform: rotate(0deg) scale(1);
+   transform: rotate(0deg) scale(1);
+  
+ }
+ .c_img2:hover{
+     opacity:0.5;
+ }
+ 
+img{
+    border-radius: 50px;
+}
+
+.about{
+   color:#b442f7ed
+}
+
+.img2{
+    padding-right: 65px;
+}
+
+
+.about h3{
+    color: #40e0d0;
+    border-radius: 40px;
+}
+
+.about h5{
+    color:#9603ebed
+}
+
+.sports{
+    color: #ffa100
+}
+
+.sports h2{
+    color:#40e0d0
+}
+
+.campus{
+    color: #40e0d0;
+}
+
+.campus h2{
+    color: #0790ff;
+}
+
+.campus h3{
+    color:#9603ebed
+    
+}
